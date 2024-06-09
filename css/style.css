@@ -1,0 +1,275 @@
+body {
+  background: #f2f2f2;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/*自定义模式启动*/
+.customize_mode .link-list-a {
+  color: #75b1c7;
+}
+
+.customize_mode .bianji {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 45px;
+  width: 100%;
+  background: #3384a2;
+  color: #FFF;
+  opacity: 0;
+}
+
+.customize_mode .bianji:hover {
+  opacity: 1;
+}
+
+.edit-category {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.main .banner {
+  margin-top: 90px;
+}
+
+.shaow-edit-category {
+  display: block
+}
+
+/*自定义模式*/
+.customize-mode-tips {
+  position: fixed;
+  top: -70px;
+  left: 50%;
+  width: 500px;
+  margin-left: -250px;
+  background: #ea644a;
+  z-index: 1000;
+  text-align: center;
+  color: #FFF;
+  border-radius: 0 0px 5px 5px;
+  transition: all .2s;
+  -moz-transition: all .2s;
+  /* Firefox 4 */
+  -webkit-transition: all .2s;
+  /* Safari 和 Chrome */
+  -o-transition: all .2s;
+  /* Opera */
+}
+
+.customize-mode-tips h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.customize-mode-tips .customize {
+  display: block;
+  width: 100%;
+  border-radius: 0 0px 5px 5px;
+  color: #FFF;
+  padding: 5.5px 0
+}
+
+.customize-mode-tips .customize:hover {
+  background: #da542e;
+}
+
+.not_operational {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: rgba(255, 255, 255, .8);
+  display: none;
+}
+
+.shaow_tips {
+  display: block;
+  top: 0;
+}
+
+/*右部按钮*/
+header .head-btn {
+  position: absolute;
+  line-height: -20px;
+  right: 10px;
+  /* margin-top: 15px; */
+  /* margin-right: 10px; */
+  font-size: 14px;
+  z-index: 100;
+}
+
+
+/*-------------------内容区域----------------------*/
+#content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/*搜索区域*/
+/* .sousuo {
+  padding: 30px 10px;
+  margin-top: 60px;
+} */
+
+#Select {
+  width: 85%;
+  float: left;
+  position: relative;
+  padding-right: 10px
+}
+
+.Select-box {
+  width: 80px;
+  background: #FFF;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 12px;
+  overflow: hidden;
+  font-size: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.Select-box ul {
+  margin: 0;
+  height: 44px
+}
+
+.Select-box ul li {
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.Select-box ul li:hover {
+  background: #317ef3;
+  color: #FFF;
+}
+
+.Select-box ul li.this_s {
+  color: #317ef3;
+  border-bottom: 1px solid #ccc;
+}
+
+.Select-box ul li.this_s:hover {
+  background: #FFF;
+  color: #317ef3;
+}
+
+#input {
+  width: 100%;
+  outline: none;
+  padding: 0 10px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  color: #999;
+}
+
+#so-btn {
+  width: 15%;
+  float: right;
+  height: 35px;
+  background: #3385ff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.qingkong {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -9px;
+  width: 18px;
+  height: 18px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  line-height: 16px;
+  color: #666666;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  display: none;
+}
+
+.qingkong:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.qingkong:active {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#so-btn i.icon {
+  margin-right: 0;
+  font-size: 20px;
+}
+
+/*---------------首页内容区域------------------*/
+.linkList-item .col-md-4 {
+  margin-bottom: 5px;
+  margin: 0px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-bottom: 10px !important;
+}
+
+.link-list-tit {
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edit-category {
+  display: none
+}
+
+.link-list-a {
+  background: rgba(255, 255, 255, 1);
+  display: block;
+  margin-bottom: 0px !important;
+  text-align: center;
+  line-height: 45px !important;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #808080;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s ease;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.3s ease;
+  /* Opera */
+}
+
+.link-list-a:hover {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+  background: #459df5;
+}
+
+/*以上链接列表的样式为通用样式*/
+.bianji {
+  display: none;
+}
+
+.cnzz_stat_icon_1261855216 {
+  display: none;
+}
